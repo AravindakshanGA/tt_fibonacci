@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "Fibonacci Sequence Generator"  # Project title
-  author:       "Samuel Ellicott"               # Your name
-  discord:      "sellicott"                     # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "AravindakshanGA"               # Your name
+  discord:      "its_me_1802"                     # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "generate the Nth fibonacci number" # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -43,12 +43,12 @@ pinout:
   # Bidirectional pins
   uio[0]: "start_stb"
   uio[1]: "busy"
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[2]: "io2"
+  uio[3]: "io3"
+  uio[4]: "io4"
+  uio[5]: "io5"
+  uio[6]: "io6"
+  uio[7]: "io7"
 
 # Do not change!
 yaml_version: 6
